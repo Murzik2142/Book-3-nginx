@@ -1,0 +1,8 @@
+---
+# defaults file for Book-1-Nginx
+#  openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -subj /CN=localhost -keyout nginx.key -out nginx.crt
+tls_dir: /etc/nginx/ssl/
+key_file: nginx.key
+cert_file: nginx.crt
+conf_file: /etc/nginx/sites-available/default
+server_name: localhost

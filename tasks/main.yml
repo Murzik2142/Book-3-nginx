@@ -1,0 +1,7 @@
+---
+# tasks file for Book-1-Nginx
+- name: Install package Nginx
+  ansible.builtin.import_tasks: task_1_install_package.yml
+
+- name: Set Nginx config
+  ansible.builtin.import_tasks: task_2_nginx_config.yaml

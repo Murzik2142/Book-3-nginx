@@ -1,0 +1,5 @@
+- name: Install package Nginx
+  package:
+    name: nginx
+    update_cache: true
+  notify: Restart nginx
